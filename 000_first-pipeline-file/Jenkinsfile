@@ -1,0 +1,3 @@
+echo $JENKINS_HOME
+pwd
+hostname
