@@ -4,8 +4,9 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                echo "Hello World"
-                pwd
+                sh 'echo "Hello World'
+                sh 'pwd'
+                sh 'hostname'
             }
         }
     }
